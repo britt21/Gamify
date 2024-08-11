@@ -44,5 +44,3 @@ RichText: Displays the clue with specific words highlighted in bold for emphasis
 Assets
 Images: The images used for the items are stored in the assets folder.
 Colors: Custom colors are defined in the colors.dart file located in the utils directory.
-Customization
-You can easily customize the game by:
