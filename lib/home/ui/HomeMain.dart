@@ -1,4 +1,5 @@
 import 'package:animatedapp/home/ui/game_home/GameHome.dart';
+import 'package:animatedapp/home/ui/scene/start_video.dart';
 import 'package:animatedapp/home/utils/images/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -34,7 +35,8 @@ class _HomeOneState extends State<HomeOne> {
               padding: const EdgeInsets.all(10.0),
               child: ElevatedButton(
                 onPressed: () {
-                  Get.off(()=>GameHome());
+                  // Get.off(()=>GameHome());
+                  Get.off(()=>VideoPlayerScreen());
                 },
                 child: Text("Begin"),
               ),

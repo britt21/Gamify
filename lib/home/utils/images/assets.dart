@@ -5,3 +5,5 @@ const icecream = "assets/png/icecream.png";
 const mango = "assets/png/mango.png";
 const lion = "assets/png/lion.png";
 const sun = "assets/png/sun.png";
+const arrow = "assets/png/arrow.png";
+const skip = "assets/png/skip_ic.png";
