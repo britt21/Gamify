@@ -1,4 +1,4 @@
-Overview
+* Overview
 GameHome is an interactive Flutter application where players engage in a simple selection game. The goal is to find the correct item based on a given clue. When the correct item is selected, the player advances to the next screen.
 
 Features
