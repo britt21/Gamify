@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:get/route_manager.dart';
 
 class HomeOne extends StatefulWidget {
+
   const HomeOne({super.key});
 
   @override
@@ -18,6 +19,7 @@ class _HomeOneState extends State<HomeOne> {
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
     super.initState();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,20 +27,25 @@ class _HomeOneState extends State<HomeOne> {
         children: [
           Positioned.fill(
             child: Image.asset(
-              maphome,
-              fit: BoxFit.cover, // This will make the image cover the entire screen
+              startscreen,
+              fit: BoxFit
+                  .cover, // This will make the image cover the entire screen
             ),
           ),
           Align(
-            alignment: Alignment.bottomRight,
+            alignment: Alignment.bottomCenter,
             child: Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: ElevatedButton(
-                onPressed: () {
-                  // Get.off(()=>GameHome());
-                  Get.off(()=>VideoPlayerScreen());
+              padding: const EdgeInsets.only(bottom: 100.0),
+              child: GestureDetector(
+                onTap: () {
+                  Get.to(() => VideoPlayerScreen());
                 },
-                child: Text("Begin"),
+                child: Container(height: 70,
+                  width: 120,
+                  child: Image.asset(
+                    playbtn,
+                  ),
+                ),
               ),
             ),
           ),

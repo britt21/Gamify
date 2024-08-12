@@ -2,7 +2,6 @@ import 'package:animatedapp/home/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/route_manager.dart';
-
 import '../../utils/images/assets.dart';
 import 'GameScreenTwo.dart';
 

@@ -1,8 +1,10 @@
 import 'package:animatedapp/home/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:get/get.dart';
 
 import '../../utils/images/assets.dart';
+import '../scene/ending_scene.dart';
 
 class ScreenThree extends StatefulWidget {
   const ScreenThree({super.key});
@@ -104,9 +106,9 @@ class _ScreenThreeState extends State<ScreenThree> {
 
             ) {
               _showResultDialog(context, "Correct", "Continue");
-              print("correct");
+             Get.to(()=>EndingScreen());
             } else {
-              _showResultDialog(context, "INCORRECT", "Try again");
+              _showResultDialog(context, "Incorrect", "Try again");
               print("INCORRECT");
             }
 
