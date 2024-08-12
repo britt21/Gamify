@@ -1,5 +1,5 @@
 import 'package:animatedapp/home/ui/game_home/GameHome.dart';
-import 'package:animatedapp/home/ui/scene/start_video.dart';
+import 'package:animatedapp/home/ui/scene/start_scene.dart';
 import 'package:animatedapp/home/utils/images/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
