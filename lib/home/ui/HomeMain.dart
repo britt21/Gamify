@@ -38,7 +38,7 @@ class _HomeOneState extends State<HomeOne> {
               padding: const EdgeInsets.only(bottom: 100.0),
               child: GestureDetector(
                 onTap: () {
-                  Get.to(() => VideoPlayerScreen());
+                  Get.to(() => SceneOne());
                 },
                 child: Container(height: 70,
                   width: 120,
